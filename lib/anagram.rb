@@ -15,6 +15,7 @@ class Anagram
         match <<  v
       end
     end
+    match
   end
 
 end
