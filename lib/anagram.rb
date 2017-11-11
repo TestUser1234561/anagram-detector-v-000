@@ -10,7 +10,7 @@ class Anagram
   def match(arr)
     match = Array.new
     arr.each do |v|
-      search = v.split.sort
+      search = v.split("").sort
       puts @word
       puts search
       if search == @word
