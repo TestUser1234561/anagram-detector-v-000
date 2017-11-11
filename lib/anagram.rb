@@ -8,7 +8,7 @@ class Anagram
   end
 
   def match(arr)
-    arr.each_with_index do |word|
+    arr.each_with_index do |i, v|
 
     end
   end
