@@ -9,8 +9,8 @@ class Anagram
 
   def match(arr)
     match = Array.new
-    arr.each_with_index do |k, v|
-      search = v.split("").sort
+    arr.each do |v|
+      search = v.split.sort
       if search == @word
         match <<  v
       end
