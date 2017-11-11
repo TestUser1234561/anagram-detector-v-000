@@ -11,6 +11,8 @@ class Anagram
     match = Array.new
     arr.each do |v|
       search = v.split.sort
+      puts @word
+      puts search
       if search == @word
         match <<  v
       end
